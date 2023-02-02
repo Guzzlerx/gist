@@ -1,0 +1,58 @@
+.audio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 0 15px;
+
+  width: 100%;
+  height: 44px;
+
+  background-color: rgba(235, 239, 254, 1);
+  border-radius: 12px;
+
+  position: relative;
+}
+
+.audioBtn {
+  width: 18px;
+  height: 18px;
+
+  border: none;
+  border-radius: 50%;
+}
+
+.audioTitle {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+
+  margin: 0;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+
+  width: 300px;
+}
+
+.cross {
+  position: absolute;
+  right: 10px;
+
+  cursor: pointer;
+}
+
+.audioTime {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+
+  color: rgba(23, 23, 24, 0.4);
+
+  margin-left: 85px;
+}
